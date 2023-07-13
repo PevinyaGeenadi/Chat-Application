@@ -1,14 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.QuadCurve?>
+<?import javafx.scene.text.Font?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="controller.LoginFormController"
-            prefHeight="400.0" prefWidth="600.0">
-
+<AnchorPane fx:id="pane" prefHeight="496.0" prefWidth="329.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.chatApp.controller.LoginFormController">
+   <children>
+      <AnchorPane layoutY="319.0" prefHeight="179.0" prefWidth="334.0" styleClass="bottomBackground" stylesheets="@../Style/Login.css">
+         <children>
+            <Button fx:id="buttonJoin" layoutX="117.0" layoutY="113.0" mnemonicParsing="false" onAction="#loginOnAction" prefHeight="25.0" prefWidth="113.0" styleClass="button-login" stylesheets="@../Style/Login.css" text="LOGIN">
+               <effect>
+                  <InnerShadow />
+               </effect>
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Button>
+            <TextField fx:id="txtName" layoutX="76.0" layoutY="60.0" onAction="#nameOnAction" prefHeight="30.0" prefWidth="197.0" promptText="         Enter Your Name" styleClass="NameLabel" stylesheets="@../Style/Login.css">
+               <font>
+                  <Font name="Bell MT" size="15.0" />
+               </font>
+               <effect>
+                  <InnerShadow height="6.17" radius="4.0075" width="11.86" />
+               </effect>
+            </TextField>
+         </children>
+      </AnchorPane>
+      <AnchorPane prefHeight="320.0" prefWidth="334.0">
+         <children>
+            <Label layoutX="115.0" layoutY="37.0" prefHeight="25.0" prefWidth="146.0" text="WELCOME" textFill="#0d0000">
+               <font>
+                  <Font name="Times New Roman" size="22.0" />
+               </font>
+            </Label>
+            <QuadCurve controlX="115.0" controlY="-58.0" endX="284.0" endY="1.0" fill="#2807a5" layoutX="50.0" layoutY="320.0" startX="-50.0" stroke="BLACK" strokeType="INSIDE" />
+            <AnchorPane layoutX="118.0" layoutY="117.0" prefHeight="88.0" prefWidth="98.0">
+               <children>
+                  <ImageView fitHeight="87.0" fitWidth="95.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../image/chat.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
 </AnchorPane>

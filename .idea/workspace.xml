@@ -5,9 +5,43 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="648f917a-39c9-4db2-a42d-53c7816a403c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Server/ServerLauncher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/cssdialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/chatApp/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/chatApp/controller/ChatFormController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/chatApp/controller/LoginFormController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/chatApp/model/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/chatApp/server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Style/Login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/image/chat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/image/download.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/image/download1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/image/emoji/angry.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/image/emoji/cool.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/image/emoji/cry.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/image/emoji/heart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/image/emoji/hug.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/image/emoji/laugh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/image/emoji/love.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/image/emoji/party.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/image/emoji/party1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/image/emoji/sad.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/image/emoji/sleepy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/image/emoji/smile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/image/emoji/surprised.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/image/icons8-sent-48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/image/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/image/login.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/image/man.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/image/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/ChatForm.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Launcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Launcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Launcher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Server/ServerLauncher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/LoginFormController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/view/LoginForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/LoginForm.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,13 +51,18 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="FxmlFile" />
+        <option value="CSS File" />
         <option value="Class" />
+        <option value="FxmlFile" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/resources/view/LoginForm.fxml" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -41,25 +80,79 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;F:/GDSE/5. Networking/Chat Application coursework/pom.xml&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_opened_file_path": "F:/GDSE/5. Networking/Chat Application coursework/src/main/resources",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.stylelint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.stylelint": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager">
-    <configuration name="Launcher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Launcher" />
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Server" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\GDSE\5. Networking\Chat Application coursework\src\main\resources" />
+      <recent name="F:\GDSE\5. Networking\Chat Application coursework\src\main\resources\image" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="lk.ijse.chatApp.model" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="ClientLauncher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="model.ClientLauncher" />
       <module name="ChatApplicationnew" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lk.ijse.chatApp.Main" />
+      <module name="ChatApplicationnew" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Program Files\JetBrains\javafx-sdk-19.0.2.1\lib&quot; --add-modules javafx.controls,javafx.fxml" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lk.ijse.chatApp.server" />
+      <module name="ChatApplicationnew" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lk.ijse.chatApp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -77,9 +170,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.ClientLauncher" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.server" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Launcher" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.server" />
+        <item itemvalue="Application.ClientLauncher" />
       </list>
     </recent_temporary>
   </component>
@@ -96,11 +196,23 @@
       <workItem from="1688886797317" duration="1855000" />
       <workItem from="1688914565392" duration="60000" />
       <workItem from="1688923376037" duration="1210000" />
-      <workItem from="1689000628570" duration="275000" />
+      <workItem from="1689000628570" duration="3321000" />
+      <workItem from="1689056118966" duration="1473000" />
+      <workItem from="1689085241324" duration="192000" />
+      <workItem from="1689130982273" duration="8244000" />
+      <workItem from="1689158253276" duration="3870000" />
+      <workItem from="1689164785618" duration="2305000" />
+      <workItem from="1689167138278" duration="120000" />
+      <workItem from="1689168983977" duration="17879000" />
+      <workItem from="1689229768751" duration="4780000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
