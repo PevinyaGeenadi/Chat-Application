@@ -7,12 +7,13 @@
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
-<?import javafx.scene.shape.QuadCurve?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
 <?import javafx.scene.text.Font?>
 
 <AnchorPane fx:id="pane" prefHeight="496.0" prefWidth="329.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.chatApp.controller.LoginFormController">
    <children>
-      <AnchorPane layoutY="319.0" prefHeight="179.0" prefWidth="334.0" styleClass="bottomBackground" stylesheets="@../Style/Login.css">
+      <AnchorPane layoutY="319.0" prefHeight="179.0" prefWidth="334.0" styleClass="bottomBackgroundColour" stylesheets="@../Style/Login.css">
          <children>
             <Button fx:id="buttonJoin" layoutX="117.0" layoutY="113.0" mnemonicParsing="false" onAction="#loginOnAction" prefHeight="25.0" prefWidth="113.0" styleClass="button-login" stylesheets="@../Style/Login.css" text="LOGIN">
                <effect>
@@ -34,17 +35,31 @@
       </AnchorPane>
       <AnchorPane prefHeight="320.0" prefWidth="334.0">
          <children>
-            <Label layoutX="115.0" layoutY="37.0" prefHeight="25.0" prefWidth="146.0" text="WELCOME" textFill="#0d0000">
+            <Label layoutX="65.0" layoutY="34.0" prefHeight="51.0" prefWidth="219.0" text="Welcome">
                <font>
-                  <Font name="Times New Roman" size="22.0" />
+                  <Font name="Verdana Bold Italic" size="40.0" />
                </font>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="0.9761904761904762" startY="0.08095238095238094">
+                     <stops>
+                        <Stop color="#c9abaf" />
+                        <Stop color="#c91129" offset="0.1134020618556701" />
+                        <Stop color="#e55c6e" offset="0.19931271477663232" />
+                        <Stop color="#a63544" offset="0.3298969072164947" />
+                        <Stop color="#e55c6e" offset="0.436426116838488" />
+                        <Stop color="#a33644" offset="0.5738831615120276" />
+                        <Stop color="#a83645" offset="0.7457044673539519" />
+                        <Stop color="#e55c6e" offset="0.9450171821305843" />
+                        <Stop color="WHITE" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </textFill>
             </Label>
-            <QuadCurve controlX="115.0" controlY="-58.0" endX="284.0" endY="1.0" fill="#2807a5" layoutX="50.0" layoutY="320.0" startX="-50.0" stroke="BLACK" strokeType="INSIDE" />
-            <AnchorPane layoutX="118.0" layoutY="117.0" prefHeight="88.0" prefWidth="98.0">
+            <AnchorPane layoutX="118.0" layoutY="117.0" prefHeight="106.0" prefWidth="113.0">
                <children>
-                  <ImageView fitHeight="87.0" fitWidth="95.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fitHeight="114.0" fitWidth="123.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../image/chat.png" />
+                        <Image url="@../image/images%20(1).jpg" />
                      </image>
                   </ImageView>
                </children>

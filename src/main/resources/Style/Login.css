@@ -8,6 +8,11 @@
 
 }
 
+.bottomBackgroundColour{
+
+    -fx-background-color:linear-gradient(to bottom, #de5a61, #fe9baa, #feb8c4, #ff9baa);
+}
+
 .topBackground{
     -fx-background-color: linear-gradient(to bottom,#8aa8e6,#3082cf,#3a66c5,#2807a5);
 
@@ -15,16 +20,17 @@
 
 
 .button{
-    -fx-background-color: #9DB2BF;
+    -fx-background-color: #233b4a;
 }
 .text-field{
     -fx-background-radius: 10px;
 }
 
 .background{
-    -fx-background-color: linear-gradient(to left, #55b282,transparent);
+    -fx-background-color: linear-gradient(to left, #ff798b,transparent);
 
 }
+
 .pane-box{
     -fx-background-color: rgba(0,0,0 ,0.2);
     -fx-background-radius: 20;
@@ -42,11 +48,11 @@
 }
 
 .button-login{
-    -fx-text-fill:#000001 ;
+    -fx-text-fill:white ;
     -fx-font-weight: bold;
     -fx-font-size: 15;
-    -fx-background-color: #ffff ;
+    -fx-background-color: #fe6075 ;
     -fx-background-radius: 30;
-    -fx-effect: dropshadow(gaussian,#2807a5, 10, 0.1, 0, 0);
+    -fx-effect: dropshadow(gaussian,#000001, 10, 0.1, 0, 0);
 }
 

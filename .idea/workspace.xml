@@ -5,42 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="648f917a-39c9-4db2-a42d-53c7816a403c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/cssdialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/chatApp/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/chatApp/controller/ChatFormController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/chatApp/controller/LoginFormController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/chatApp/model/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/chatApp/server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Style/Login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/image/chat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/image/download.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/image/download1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/image/emoji/angry.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/image/emoji/cool.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/image/emoji/cry.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/image/emoji/heart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/image/emoji/hug.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/image/emoji/laugh.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/image/emoji/love.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/image/emoji/party.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/image/emoji/party1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/image/emoji/sad.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/image/emoji/sleepy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/image/emoji/smile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/image/emoji/surprised.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/image/icons8-sent-48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/image/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/image/login.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/image/man.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/image/user.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/view/ChatForm.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/image/pink.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Launcher.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Server/ServerLauncher.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/LoginFormController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/chatApp/server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/chatApp/server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Style/Login.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Style/Login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/view/ChatForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/ChatForm.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/view/LoginForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/LoginForm.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +57,7 @@
     "WebServerToolWindowFactoryState": "false",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "last_opened_file_path": "F:/GDSE/5. Networking/Chat Application coursework/src/main/resources",
+    "last_opened_file_path": "F:/GDSE/5. Networking/Chat Application coursework/src/main/resources/image",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.stylelint": "true",
@@ -109,8 +78,8 @@
       <recent name="Server" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\GDSE\5. Networking\Chat Application coursework\src\main\resources" />
       <recent name="F:\GDSE\5. Networking\Chat Application coursework\src\main\resources\image" />
+      <recent name="F:\GDSE\5. Networking\Chat Application coursework\src\main\resources" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -204,7 +173,7 @@
       <workItem from="1689164785618" duration="2305000" />
       <workItem from="1689167138278" duration="120000" />
       <workItem from="1689168983977" duration="17879000" />
-      <workItem from="1689229768751" duration="4780000" />
+      <workItem from="1689229768751" duration="14534000" />
     </task>
     <servers />
   </component>

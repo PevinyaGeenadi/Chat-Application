@@ -9,19 +9,38 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.layout.VBox?>
-<?import javafx.scene.shape.QuadCurve?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
 <?import javafx.scene.text.Font?>
 
 <AnchorPane prefHeight="543.0" prefWidth="404.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.chatApp.controller.ChatFormController">
     <children>
         <AnchorPane layoutX="6.0" layoutY="55.0" prefHeight="543.0" prefWidth="413.0" style="-fx-background-color: white;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
             <children>
-                <AnchorPane prefHeight="59.0" prefWidth="410.0" styleClass="topBackground" stylesheets="@../Style/Login.css">
+                <AnchorPane prefHeight="59.0" prefWidth="410.0" style="-fx-background-color: #CC8D96;">
                     <children>
-                        <Label fx:id="UserName" layoutX="43.0" layoutY="15.0" prefHeight="17.0" prefWidth="164.0" text="Name" textFill="#f5eded">
+                        <Label fx:id="UserName" layoutX="43.0" layoutY="15.0" prefHeight="17.0" prefWidth="164.0" text="Chat Application">
                             <font>
                                 <Font name="System Bold Italic" size="20.0" />
                             </font>
+                     <textFill>
+                        <LinearGradient endX="1.0" endY="1.0">
+                           <stops>
+                              <Stop color="#bc0a22" />
+                              <Stop color="#ba0b22" offset="0.04123711340206185" />
+                              <Stop color="#ba0b22" offset="0.08591065292096217" />
+                              <Stop color="#ff5068" offset="0.18900343642611683" />
+                              <Stop color="#632931" offset="0.49828178694158076" />
+                              <Stop color="#ba0b22" offset="0.5395189003436426" />
+                              <Stop color="#945961" offset="0.6735395189003437" />
+                              <Stop color="#ba0b22" offset="0.8247422680412372" />
+                              <Stop color="#ba0b22" offset="0.8762886597938144" />
+                              <Stop color="#1b070a" offset="0.9828178694158076" />
+                              <Stop color="#ff2542" offset="0.9828178694158076" />
+                              <Stop color="WHITE" offset="1.0" />
+                           </stops>
+                        </LinearGradient>
+                     </textFill>
                         </Label>
                         <ImageView fitHeight="29.0" fitWidth="33.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
                             <image>
@@ -29,7 +48,7 @@
                             </image>
                         </ImageView>
                     </children></AnchorPane>
-                <AnchorPane layoutY="461.0" prefHeight="82.0" prefWidth="407.0" style="-fx-background-color: white; -fx-border-color: black;">
+                <AnchorPane layoutY="461.0" prefHeight="82.0" prefWidth="407.0" style="-fx-background-color: #CC8D96;">
                     <children>
                         <ImageView fitHeight="30.0" fitWidth="23.0" layoutX="9.0" layoutY="42.0" onMouseClicked="#photoSendOnAction" pickOnBounds="true" preserveRatio="true">
                             <image>
@@ -37,7 +56,7 @@
                             </image>
                         </ImageView>
                         <TextField fx:id="txtMsg" layoutX="61.0" layoutY="37.0" onAction="#enterSendOnAction" prefHeight="23.0" prefWidth="287.0" styleClass="text-field" AnchorPane.bottomAnchor="14.0" />
-                        <Button fx:id="sendButton" layoutX="357.0" layoutY="40.0" mnemonicParsing="false" onAction="#sendOnAction" prefHeight="25.0" prefWidth="46.0" style="-fx-background-color: black;" styleClass="text-field" stylesheets="@../Style/Login.css" text="send" textFill="#fffafa">
+                        <Button fx:id="sendButton" layoutX="357.0" layoutY="40.0" mnemonicParsing="false" onAction="#sendOnAction" prefHeight="25.0" prefWidth="46.0" style="-fx-background-color: #fe6075;" styleClass="text-field" stylesheets="@../Style/Login.css" text="send" textFill="#fffafa">
                             <font>
                                 <Font name="System Bold" size="12.0" />
                             </font></Button>
@@ -46,7 +65,7 @@
                                 <Image url="@../image/download1.png" />
                             </image>
                         </ImageView>
-                        <Pane fx:id="emojiPane" layoutX="1.0" layoutY="2.0" prefHeight="33.0" prefWidth="407.0" style="-fx-background-color: white; -fx-border-color: white;">
+                        <Pane fx:id="emojiPane" layoutX="1.0" layoutY="2.0" prefHeight="33.0" prefWidth="407.0" style="-fx-background-color: #FFE7EA;">
                             <children>
                                 <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="367.0" layoutY="2.0" onMouseClicked="#cryOnAction" pickOnBounds="true" preserveRatio="true">
                                     <image>
@@ -114,10 +133,7 @@
                 </AnchorPane>
                 <ScrollPane layoutX="3.0" layoutY="59.0" prefHeight="400.0" prefWidth="401.0">
                     <content>
-                        <VBox fx:id="vbox" prefHeight="392.0" prefWidth="400.0">
-                            <children>
-                                <QuadCurve controlX="36.0" controlY="-23.0" endX="247.0" endY="-42.0" fill="#2807a5" startX="-153.0" startY="-42.0" stroke="BLACK" strokeType="INSIDE" />
-                            </children></VBox>
+                        <VBox fx:id="vbox" prefHeight="392.0" prefWidth="400.0" />
                     </content>
                 </ScrollPane>
             </children>
