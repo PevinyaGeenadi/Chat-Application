@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="648f917a-39c9-4db2-a42d-53c7816a403c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/image/pink.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/chatApp/server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/chatApp/server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/chatApp/controller/ChatFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/chatApp/controller/ChatFormController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/chatApp/controller/LoginFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/chatApp/controller/LoginFormController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/chatApp/model/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/chatApp/client/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/chatApp/server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/chatApp/server/Server.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/Style/Login.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Style/Login.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/view/ChatForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/ChatForm.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/view/LoginForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/LoginForm.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,30 +49,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "last_opened_file_path": "F:/GDSE/5. Networking/Chat Application coursework/src/main/resources/image",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.stylelint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.stylelint": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/GDSE/5. Networking/Chat Application coursework/src/main/resources/image&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.stylelint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.stylelint&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.sync&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="Server" />
@@ -89,6 +89,9 @@
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="lk.ijse.chatApp.model" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="lk.ijse.chatApp.server" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Main">
@@ -113,12 +116,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lk.ijse.chatApp.server.Server" />
+      <module name="ChatApplicationnew" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lk.ijse.chatApp.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lk.ijse.chatApp.server" />
       <module name="ChatApplicationnew" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lk.ijse.chatApp.*" />
+          <option name="PATTERN" value="lk.ijse.chatApp.server.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,6 +156,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Server" />
       <item itemvalue="Application.ClientLauncher" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.server" />
@@ -147,6 +164,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Server" />
         <item itemvalue="Application.server" />
         <item itemvalue="Application.ClientLauncher" />
       </list>
@@ -173,7 +191,11 @@
       <workItem from="1689164785618" duration="2305000" />
       <workItem from="1689167138278" duration="120000" />
       <workItem from="1689168983977" duration="17879000" />
-      <workItem from="1689229768751" duration="14534000" />
+      <workItem from="1689229768751" duration="15215000" />
+      <workItem from="1689273106853" duration="55000" />
+      <workItem from="1689334300700" duration="2906000" />
+      <workItem from="1689393083653" duration="6079000" />
+      <workItem from="1689480283189" duration="2978000" />
     </task>
     <servers />
   </component>

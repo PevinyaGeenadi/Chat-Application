@@ -1,13 +1,13 @@
-package lk.ijse.chatApp;
+package lk.ijse.chatApp.server;
 
-import lk.ijse.chatApp.model.Client;
+import lk.ijse.chatApp.client.Client;
 
 import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.ArrayList;
 
-public class server {
+public class Server {
     private static ArrayList<Client> clients = new ArrayList<Client>();
 
     public static void main(String[] args) throws IOException {

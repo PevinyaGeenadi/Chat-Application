@@ -23,42 +23,44 @@ import javafx.stage.Stage;
 import java.io.*;
 import java.net.Socket;
 
-public class ChatFormController extends Thread {
-
+public class ChatFormController extends Thread{
     @FXML
     private Label UserName;
+
     @FXML
     private TextField txtMsg;
+
     @FXML
     private Button sendButton;
-    @FXML
-    private VBox vbox;
+
     @FXML
     private Pane emojiPane;
+
+    @FXML
+    private VBox vbox;
+
+    private FileChooser fileChooser;
+    private File filePath;
 
     BufferedReader reader;
     PrintWriter writer;
     Socket socket;
 
-    private FileChooser fileChooser;
-    private File filePath;
-
     @FXML
-    void sendOnAction(ActionEvent event) {
-        String msg = txtMsg.getText();
-        writer.println(UserName.getText() + ": " + msg);
-        txtMsg.clear();
-
-        if(msg.equalsIgnoreCase("!Bye") || (msg.equalsIgnoreCase("logout"))) {
-            System.exit(0);
-
-        }
-    }
-    @FXML
-    void enterSendOnAction(ActionEvent event) {
+    public void enterSendOnAction(ActionEvent event) {
         sendButton.fire();
     }
 
+    @FXML
+    public void sendOnAction(ActionEvent event) {
+        String msg = txtMsg.getText();
+        writer.println(UserName.getText() + ": "+msg);
+        txtMsg.clear();
+
+        if (msg.equalsIgnoreCase("!Bye") || (msg.equalsIgnoreCase("Logout"))) {
+            System.exit(0);
+        }
+    }
     @FXML
     void photoSendOnAction(MouseEvent event) {
         Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
@@ -77,10 +79,10 @@ public class ChatFormController extends Thread {
     }
 
     public void initialize()  {
-        String userName= LoginFormController.name;
+        String userName=LoginFormController.name;
         this.UserName.setText(userName);
         try {
-            socket = new Socket("localhost", 5001);
+            socket = new Socket("localhost", 4006);
             System.out.println("Socket is connected with server!");
             reader = new BufferedReader(new InputStreamReader(socket.getInputStream()));
             writer = new PrintWriter(socket.getOutputStream(), true);
@@ -207,9 +209,7 @@ public class ChatFormController extends Thread {
         }
     }
 
-    public void happyOnAction(MouseEvent mouseEvent) {
-        txtMsg.appendText("\uD83D\uDE42");
-    }
+    public void happyOnAction(MouseEvent mouseEvent) { txtMsg.appendText("\uD83D\uDE42"); }
 
     public void coolOnAction(MouseEvent mouseEvent) {
         txtMsg.appendText("\uD83D\uDE0E");
@@ -254,4 +254,5 @@ public class ChatFormController extends Thread {
     public void cryOnAction(MouseEvent mouseEvent) {
         txtMsg.appendText("\uD83D\uDE2D");
     }
+
 }

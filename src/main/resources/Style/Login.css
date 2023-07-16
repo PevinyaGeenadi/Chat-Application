@@ -21,9 +21,21 @@
 
 .button{
     -fx-background-color: #233b4a;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 12px;
+
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+    -fx-border-width: 1px;
+    -fx-border-color: #FFFFFF;
+
 }
 .text-field{
     -fx-background-radius: 10px;
+    -fx-pref-height: 30px;
+    -fx-border-radius: 10px;
+    -fx-border-color: #233b4a;
 }
 
 .background{
@@ -34,17 +46,20 @@
 .pane-box{
     -fx-background-color: rgba(0,0,0 ,0.2);
     -fx-background-radius: 20;
+    -fx-padding: 10px;
 }
 
 .NameLabel {
-    -fx-text-fill:#000001 ;
+    -fx-text-fill:#de5a61 ;
     -fx-background-redius: 20;
     -fx-effect: dropshadow(gaussian,#2807a5, 10, 0.1, 0, 0);
+    -fx-font-size: 18px;
 }
 
 .sendLabel {
     -fx-background-redius: 20;
     -fx-effect: dropshadow(gaussian, #1b72e4, 5, 0.1, 0, 0);
+    -fx-font-size: 14px;
 }
 
 .button-login{
@@ -54,5 +69,7 @@
     -fx-background-color: #fe6075 ;
     -fx-background-radius: 30;
     -fx-effect: dropshadow(gaussian,#000001, 10, 0.1, 0, 0);
+    -fx-pref-width: 100px;
+    -fx-pref-height: 40px;
 }
 

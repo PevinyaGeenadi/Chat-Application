@@ -1,4 +1,4 @@
-package lk.ijse.chatApp.model;
+package lk.ijse.chatApp.client;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -56,3 +56,4 @@ public class Client extends Thread {
 
     }
 }
+

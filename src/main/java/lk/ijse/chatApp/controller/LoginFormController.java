@@ -14,23 +14,24 @@ import javafx.stage.Stage;
 import java.io.IOException;
 import java.util.regex.Pattern;
 
-public class LoginFormController{
+public class LoginFormController {
     public static String name;
     @FXML
     private AnchorPane pane;
-    @FXML
-    private Button buttonJoin;
+
     @FXML
     private TextField txtName;
 
-    public void loginOnAction(ActionEvent event) throws IOException {
-        clientLogin();
+    @FXML
+    private Button buttonJoin;
+
+    public void nameOnAction(ActionEvent event) {
+        buttonJoin.fire();
     }
 
-
-    public void clientLogin()  throws IOException {
-        name = txtName.getText();
-        if (Pattern.matches("^[a-zA-Z\\s]+", txtName.getText())) {
+    public void clientLogin() throws IOException{
+        name=txtName.getText();
+        if (Pattern.matches("^[a-z\\s]+",txtName.getText())){
             Parent root = FXMLLoader.load(getClass().getResource("/view/ChatForm.fxml"));
             Scene scene = new Scene(root);
             Stage stage = new Stage();
@@ -40,14 +41,13 @@ public class LoginFormController{
             stage.show();
 
             txtName.clear();
-
         }else {
-            Alert alert= new Alert(Alert.AlertType.ERROR,"please enter your name!");
+            Alert alert = new Alert(Alert.AlertType.ERROR,"Please enter your name");
             alert.show();
         }
     }
 
-    public void nameOnAction(ActionEvent event) {
-        buttonJoin.fire();
+    public void loginOnAction(ActionEvent event) throws IOException {
+        clientLogin();
     }
 }
