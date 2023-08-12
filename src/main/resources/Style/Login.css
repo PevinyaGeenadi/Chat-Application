@@ -1,75 +1,67 @@
-.Background{
-
-    -fx-background-color: linear-gradient(to bottom,#0E2954,#1F6E8C,#2E8A99,#84A7A1);
+.Background {
+    -fx-background-color: linear-gradient(to bottom, #e55c6e, #e55c6e,#a33644, #a83645);
 }
 
-.bottomBackground{
-    -fx-background-color: linear-gradient(to bottom,#2807a5,#3a66c5,#3082cf,#8aa8e6);
-
+.bottomBackground {
+    -fx-background-color: linear-gradient(to bottom, #e55c6e, #a63544, #e55c6e, #a83645);
 }
 
-.bottomBackgroundColour{
-
-    -fx-background-color:linear-gradient(to bottom, #de5a61, #fe9baa, #feb8c4, #ff9baa);
+.bottomBackgroundColour {
+    -fx-background-color: linear-gradient(to bottom, #e55c6e, #a33644,#e55c6e, #a83645);
 }
 
-.topBackground{
-    -fx-background-color: linear-gradient(to bottom,#8aa8e6,#3082cf,#3a66c5,#2807a5);
-
+.topBackground {
+    -fx-background-color: linear-gradient(to bottom, #e55c6e, #a63544, #a33644, #e55c6e);
 }
 
-
-.button{
-    -fx-background-color: #233b4a;
+.button {
+    -fx-background-color: #a33644;
     -fx-text-fill: white;
     -fx-font-weight: bold;
     -fx-font-size: 12px;
-
     -fx-background-radius: 10px;
     -fx-border-radius: 10px;
     -fx-border-width: 1px;
     -fx-border-color: #FFFFFF;
-
 }
-.text-field{
+
+.text-field {
     -fx-background-radius: 10px;
     -fx-pref-height: 30px;
     -fx-border-radius: 10px;
-    -fx-border-color: #233b4a;
+    -fx-border-color: #a33644;
 }
 
-.background{
-    -fx-background-color: linear-gradient(to left, #ff798b,transparent);
-
+.background {
+    -fx-background-color: linear-gradient(to left, #e55c6e, transparent);
 }
 
-.pane-box{
-    -fx-background-color: rgba(0,0,0 ,0.2);
+.pane-box {
+    -fx-background-color: rgba(0, 0, 0, 0.2);
     -fx-background-radius: 20;
     -fx-padding: 10px;
 }
 
 .NameLabel {
-    -fx-text-fill:#de5a61 ;
-    -fx-background-redius: 20;
-    -fx-effect: dropshadow(gaussian,#2807a5, 10, 0.1, 0, 0);
+    -fx-text-fill: #e55c6e;
+    -fx-background-radius: 20;
+    -fx-effect: dropshadow(gaussian, #a63544, 10, 0.1, 0, 0);
     -fx-font-size: 18px;
 }
 
 .sendLabel {
-    -fx-background-redius: 20;
-    -fx-effect: dropshadow(gaussian, #1b72e4, 5, 0.1, 0, 0);
+    -fx-background-radius: 20;
+    -fx-effect: dropshadow(gaussian, #a83645, 5, 0.1, 0, 0);
     -fx-font-size: 14px;
 }
 
-.button-login{
-    -fx-text-fill:white ;
+.button-login {
+    -fx-text-fill: white;
     -fx-font-weight: bold;
     -fx-font-size: 15;
-    -fx-background-color: #fe6075 ;
+    -fx-background-color: #a83645;
     -fx-background-radius: 30;
-    -fx-effect: dropshadow(gaussian,#000001, 10, 0.1, 0, 0);
+    -fx-effect: dropshadow(gaussian, #a33644, 10, 0.1, 0, 0);
     -fx-pref-width: 100px;
     -fx-pref-height: 40px;
 }
-
