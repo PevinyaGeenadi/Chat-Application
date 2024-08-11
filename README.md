@@ -15,10 +15,16 @@ Welcome to the Play Tech Live Chat application! This chat room is exclusively fo
 3. View messages from other users.
 4. Respond to messages accordingly.
 
+## 📸 Screenshots
+![chatAppui.png](src%2Fmain%2Fresources%2Fimage%2FchatAppui.png)
+
+
 ## Contact 📧👋
 
 If you have any questions or feedback, please feel free to reach out to [haputhanthri200@gmail.com](mailto:haputhanthri200@gmail.com) 📧🚀
 
 🌟🌈 Happy chatting! 🌈🌟
 
-<img src="resources/image/chatAppui.png" alt="Chat App UI" width="500"/>
+
+
+
