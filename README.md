@@ -20,3 +20,5 @@ Welcome to the Play Tech Live Chat application! This chat room is exclusively fo
 If you have any questions or feedback, please feel free to reach out to [haputhanthri200@gmail.com](mailto:haputhanthri200@gmail.com) 📧🚀
 
 🌟🌈 Happy chatting! 🌈🌟
+
+<img src="resources/image/chatAppui.png" alt="Chat App UI" width="500"/>
