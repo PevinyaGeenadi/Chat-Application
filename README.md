@@ -17,6 +17,6 @@ Welcome to the Play Tech Live Chat application! This chat room is exclusively fo
 
 ## Contact 📧👋
 
-If you have any questions or feedback, please feel free to reach out to [vinugeena81@gmail.com](mailto:vinugeena81@gmail.com) 📧🚀
+If you have any questions or feedback, please feel free to reach out to [haputhanthri200@gmail.com](mailto:haputhanthri200@gmail.com) 📧🚀
 
 🌟🌈 Happy chatting! 🌈🌟
